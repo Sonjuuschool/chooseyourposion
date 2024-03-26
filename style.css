@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Honk&family=Roboto+Slab&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+}
+
+h2, h3, h4 {
+    font-family: 'Honk', system-ui;
+}
+
+nav {
+    background-color: #151515;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+li  {
+    display: inline-block;
+}
+
+nav a img {
+    height: 50px;
+    max-width: 100%;
+    padding: 5px;
+}
+
+
+.browse {
+    background-color: #151515; 
+}
+
+main {
+    display: flex;
+}
+
+main div li img {
+    height: 200px;
+}
+
+main div a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+main div ul {
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.mainimg {
+    width: 825px;
+}
+
+body {
+    background-color: #333;
+    margin: 0;
+}
+
+.mypicks {
+    background-color: #151515;
+    
+}
+
+.drink {
+    flex: 1 0 100px;
+    background-color: #151515;
+    color: white;
+    height: 500px;
+    width: 400px;
+    text-align: center;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Dosis';
+}
+
+.idk {
+    padding: 200px 150px 200px 150px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Dosis';
+}
+
+.drink li {
+    padding: 15px;
+}
+
+.drinky {
+    flex: 1 0 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: 1650px;
+    font-family: 'Dosis';
+}
+
+form {
+    color: white;
+    font-family: 'Dosis';
+}
+
+footer {
+    text-align: center;
+    font-family: 'Dosis';
+    color: white;
+}
+
+ul h1 {
+    font-family: 'Honk';
+}
+
+ul li h1 {
+    font-family: 'Roboto Slab', serif;
+}
