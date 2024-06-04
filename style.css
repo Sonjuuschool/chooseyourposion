@@ -149,7 +149,7 @@ input:focus {
 @media (max-width: 640px) {
 
    .mainimg {
-  max-width: 360px;
+  max-width: 100%;
   height: auto;
    }
    main {
@@ -166,11 +166,11 @@ input:focus {
    }
    .drinky {
     flex-direction: column;
-    max-width: 360px;
+    max-width: 100%;
    }
     .drink {
     margin: 5px;
-    max-width: 350px;
+    max-width: 100%;
   }
 
  
